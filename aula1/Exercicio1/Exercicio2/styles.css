@@ -1,0 +1,20 @@
+#titulo{
+    margin: 0px 0px 0px 5px;
+    background-color: #f5424e;
+    padding: 40px 0px;
+    font-family: 
+}
+.paragrafo{
+    font-size:larger;
+    color:darkgrey;
+}
+li {
+    font-size: xx-large;
+    color:gold;
+    background-color: grey;
+
+}
+
+body {
+    background-color: blueviolet;
+}
