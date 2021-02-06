@@ -60,3 +60,12 @@ ul{
 a{
  color:deepskyblue;
 }
+
+.secao1{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding:10px;
+    }

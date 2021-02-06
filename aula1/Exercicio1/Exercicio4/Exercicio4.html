@@ -16,24 +16,29 @@
             <li>Jogos</li>
             <li>Bateria</li>
         </ul>
-<input id="inputNome" type="text">
-<input class="inputNome2" type="text">
-<input class="inputNome2" type="text">
-<input type="text">
 
-<button onclick="botaoClick()">clique aqui</button>
+
+
 
         <p class=divisao>-----------------------------------------------------------------</p>
     <div class="periodo">
         <p>Período que estou cursando: 7 </p>
         <a href="https://www.pucpcaldas.br/">PUC Poços de Caldas</a>
     </div>   
-     <button onclick="Mostramensagem()">Botão</button>
+    <div class="secao1">
 
+        <p>Informe o seu nome: </p>
+            <input id="nome" type="text" placeholder="digite aqui">
+           
+        <p>Informe a sua idade: </p>
 
-    
-
+        <div class="CampoIdade">
+        <button class="idade" onclick="decrementa()">-</button>
+        <input id="idade" class="idade" value=1 disabled/>
+        <button class="idade" onclick="incrementa()">+</button>
+        </div>
+            <button onclick="botaoClick()">Finalizar</button>
+            
     </body>
-
+    </div>    
 </html>
-    
